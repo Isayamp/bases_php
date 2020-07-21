@@ -26,6 +26,9 @@ if ($nombre > 0 AND $prix_unitaire != 0) {  // On teste que nombre est bien sup√
     echo 'Pas d\'a un achat !' . '<br/><br/><br/>';
 }
 
+/* // Ternarry operator
+echo $nombre > 0 AND $prix_unitaire != 0 ? "Il y a un achat ! <br/><br/><br/>" : "Pas d\'a un achat ! <br/><br/><br/>";
+ */
 
 # ARITHMETICS OPERATORS
 
