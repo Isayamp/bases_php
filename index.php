@@ -120,6 +120,15 @@ foreach ($contact as $key => $value) {
     echo $key . ' : ' . $value . '<br/>';
 }
 
-fore
+
+
+# FUNCTIONS (Fonctions)
+
+// internal function
+echo '<br/><br/><br/>' . 'I am a free programmer' . ' a ' . strlen('Iam a free programmer') . ' caractères <br/><br/><br/>';  // Retourne la longueur d'une chaine de caractères
+
+// custumized function
+
+
 
 ?>
