@@ -1,0 +1,11 @@
+<?php
+
+# VARIABLES
+# BOOLEANS
+# CONDITIONS
+# ARRAY
+# FUNCTIONS
+# POO
+
+
+?>
