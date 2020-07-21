@@ -135,10 +135,17 @@ function totalAmount($up, $num) {      // Cette fonction calcul le prix total
 
 function MotFinal()  // Un mot final pour  notre client
 {
+    $prix_unitaire = 228;      // Déclaration et initialisation de variable
+    $nombre = 5;
+
     echo 'Nous vous remercions de nous avoir choisie et acheter les produit de ' . totalAmount($prix_unitaire, $nombre) . ' BIF <br/>';
     echo 'Bon voyage !!!';
 }
 
 MotFinal();  // Appelle de la fonction pour l'affichage
+
+# OOP
+
+    // In the next work
 
 ?>
