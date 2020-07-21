@@ -45,6 +45,13 @@ echo "{$a} - {$b} = {$c} <br/>";  // Affichage du resultat
 $c = $a * $b;      // On fait la multiblication de a et b et on stock le resultat dans c
 echo "{$a} x {$b} = {$c} <br/>";  // Affichage du resultat
 
+// Division
+$c = $a / $b;      // On fait la division de a et b et on stock le resultat dans c
+echo "{$a} : {$b} = {$c} <br/>";  // Affichage du resultat
+
+// Modulo
+$c = $a % $b;      // On cherche le reste de la division de a et b et on stock le resultat dans c
+echo "{$a} % {$b} = {$c} <br/>";  // Affichage du resultat
 
 
 
