@@ -67,9 +67,10 @@ if ($nombre == 0) {     // On vérifie aec l'opérateur de comparaison que nombr
     echo "Aucun article acheté ! <br><br/>";
 }
 else {
+    $montantTotal = $prix_unitaire*$nombre;
     //echo "Le montant total est de $tAmount <br/><br/>";
-    echo "Le prix unitaire = {$prix_unitaire} et la quqntité = {$nombre} <br>";
-    echo "Le montant total à payer est donc $prix_unitaire * $nombre <br/><br/>"; 
+    echo "Le prix unitaire = {$prix_unitaire} et la quantité = {$nombre} <br>";
+    echo "Le montant total à payer est donc de $montantTotal <br/><br/>"; 
 }
 
 // Loops (les boocles)
@@ -99,5 +100,26 @@ switch ($prix_unitaire) {   // par rappport au prix initiale, on compare avec le
         echo 'C\'est autre chose';
         break;
 }
+
+
+# ARRAY (TABLEAU)
+
+// Simple
+print("Voici les meilleurs clients du jour <br/>");
+$clients = array('Isaya', 'Daniel', 'Naomi');
+for ($i=0; $i < 3; $i++) { 
+    echo '. ' . $clients[$i] . '<br/>';
+}
+
+// Dictionnaire
+//$contact = array('Pombo' => '71 182 680', 'Janvier' => '68 453 612', 'Martine' => '75 294 098'); // Meme chose que la ligne suivante
+$contact = ['Pombo' => '71 182 680', 'Janvier' => '68 453 612', 'Martine' => '75 294 098'];
+
+echo "<br/> Nos contacts <br/>";
+foreach ($contact as $key => $value) {
+    echo $key . ' : ' . $value . '<br/>';
+}
+
+fore
 
 ?>
