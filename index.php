@@ -2,7 +2,7 @@
 
 # VARIABLES
 # BOOLEANS
-# OPERATORS
+# ARITHMETICS OPERATORS
 # CONDITIONS
 # ARRAY
 # FUNCTIONS
@@ -27,7 +27,7 @@ if ($nombre > 0 AND $prix_unitaire != 0) {  // On teste que nombre est bien sup√
 }
 
 
-# OPERATORS
+# ARITHMETICS OPERATORS
 
 $a = 35.6;      // D√©claration et initialisations des variables
 $b = 2;
@@ -40,6 +40,11 @@ echo "{$a} + {$b} = {$c} <br/>";  // Affichage du resultat
 // Soustraction
 $c = $a - $b;      // On fait la soustraction de a et b et on stock le resultat dans c
 echo "{$a} - {$b} = {$c} <br/>";  // Affichage du resultat
+
+// Multiplication
+$c = $a * $b;      // On fait la multiblication de a et b et on stock le resultat dans c
+echo "{$a} x {$b} = {$c} <br/>";  // Affichage du resultat
+
 
 
 
