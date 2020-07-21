@@ -53,6 +53,9 @@ echo "{$a} : {$b} = {$c} <br/>";  // Affichage du resultat
 $c = $a % $b;      // On cherche le reste de la division de a et b et on stock le resultat dans c
 echo "{$a} % {$b} = {$c} <br/>";  // Affichage du resultat
 
+// Exponentielle
+$c = $a ** $b;      // On élève a à la puissance de b et on stock le resultat dans c
+echo "{$a} ^ {$b} = {$c} <br/>";  // Affichage du resultat
 
 
 ?>
