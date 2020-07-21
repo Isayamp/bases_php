@@ -37,7 +37,9 @@ $c = 0;
 $c = $a + $b;      // On additionne a et b et on stock le resultat dans c
 echo "{$a} + {$b} = {$c} <br/>";  // Affichage du resultat
 
-
+// Soustraction
+$c = $a - $b;      // On fait la soustraction de a et b et on stock le resultat dans c
+echo "{$a} - {$b} = {$c} <br/>";  // Affichage du resultat
 
 
 
