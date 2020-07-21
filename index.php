@@ -129,6 +129,16 @@ echo '<br/><br/><br/>' . 'I am a free programmer' . ' a ' . strlen('Iam a free p
 
 // custumized function
 
+function totalAmount($up, $num) {      // Cette fonction calcul le prix total
+    return $up * $num;
+}
 
+function MotFinal()  // Un mot final pour  notre client
+{
+    echo 'Nous vous remercions de nous avoir choisie et acheter les produit de ' . totalAmount($prix_unitaire, $nombre) . ' BIF <br/>';
+    echo 'Bon voyage !!!';
+}
+
+MotFinal();  // Appelle de la fonction pour l'affichage
 
 ?>
