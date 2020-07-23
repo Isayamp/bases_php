@@ -18,13 +18,13 @@ $nombre = 5;
 
 # BOOLEANS
 
-/* if ($nombre > 0 AND $prix_unitaire != 0) {  // On teste que nombre est bien supérieur à 0 et le prix unitaire est différent de O pour savoir s'il a un achat ou pas en utilisant un opérateur logique AND
+if ($nombre > 0 AND $prix_unitaire != 0) {  // On teste que nombre est bien supérieur à 0 et le prix unitaire est différent de O pour savoir s'il a un achat ou pas en utilisant un opérateur logique AND
     $achat = TRUE;
     echo 'Il y a un achat !' . '<br/><br/><br/>';
 } else {
     $achat = FALSE;
     echo 'Pas d\'a un achat !' . '<br/><br/><br/>';
-} */
+}
 
 // Ternarry operator
 echo ($nombre > 0 AND $prix_unitaire != 0) ? "Il y a un achat ! <br/><br/><br/>" : "Pas d'a un achat ! <br/><br/><br/>";
