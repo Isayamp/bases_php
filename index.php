@@ -27,7 +27,7 @@ $nombre = 5;
 } */
 
 // Ternarry operator
-echo ($nombre > 0 AND $prix_unitaire != 0) ? "Il y a un achat ! <br/><br/><br/>" : "Pas d\'a un achat ! <br/><br/><br/>";
+echo ($nombre > 0 AND $prix_unitaire != 0) ? "Il y a un achat ! <br/><br/><br/>" : "Pas d'a un achat ! <br/><br/><br/>";
 
 
 # ARITHMETICS OPERATORS
